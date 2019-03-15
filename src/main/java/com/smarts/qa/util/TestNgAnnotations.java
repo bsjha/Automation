@@ -1,5 +1,7 @@
 package com.smarts.qa.util;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -13,11 +15,13 @@ import com.smarts.qa.page.LoginPage;
 
 public abstract class TestNgAnnotations {
 	protected static WebDriver driver = null;
-	//protected static LoginPage login;
+	protected static String directory = System.getProperty("user.dir");
 	
 	@BeforeClass
 	public static void beforeClass() {
-		PropertyManager.LoadProperties("C:\\myproject\\jyoReal\\src\\resources\\config.properties");
+	    
+		   String directory = System.getProperty("user.dir");
+		PropertyManager.LoadProperties(directory+ "/src/test/resources/config.properties");
 		
 
 	}
@@ -26,7 +30,7 @@ public abstract class TestNgAnnotations {
 	public static WebDriver setUp() {
 		String browsername = PropertyManager.getProperty("browser");
 		if (browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\myproject\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", directory+"/src/main/resources/Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browsername.equals("firefox")) {
 			System.setProperty("webdriver.geico.driver", "C:\\myproject\\drivers\\geicodriver.exe");
