@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="24365" started-at="2018-10-03T23:16:33Z" finished-at="2018-10-03T23:16:58Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="24365" started-at="2018-10-03T23:16:33Z" finished-at="2018-10-03T23:16:58Z">
+      <class name="com.smarts.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.smarts.qa.testcases.LoginTest@7823a2f9]" name="setup" is-config="true" duration-ms="6482" started-at="2018-10-03T23:16:42Z" finished-at="2018-10-03T23:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatetitle()[pri:1, instance:com.smarts.qa.testcases.LoginTest@7823a2f9]" name="validatetitle" duration-ms="17" started-at="2018-10-03T23:16:49Z" finished-at="2018-10-03T23:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.smarts.qa.testcases.LoginTest@7823a2f9]" name="teardown" is-config="true" duration-ms="1034" started-at="2018-10-03T23:16:49Z" finished-at="2018-10-03T23:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.smarts.qa.testcases.LoginTest@7823a2f9]" name="setup" is-config="true" duration-ms="6024" started-at="2018-10-03T23:16:50Z" finished-at="2018-10-03T23:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintesrcase()[pri:2, instance:com.smarts.qa.testcases.LoginTest@7823a2f9]" name="logintesrcase" duration-ms="1056" started-at="2018-10-03T23:16:56Z" finished-at="2018-10-03T23:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintesrcase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.smarts.qa.testcases.LoginTest@7823a2f9]" name="teardown" is-config="true" duration-ms="932" started-at="2018-10-03T23:16:57Z" finished-at="2018-10-03T23:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.smarts.qa.testcases.LoginTest -->
+      <class name="com.smarts.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.smarts.qa.testcases.HomePageTest@1b604f19]" name="setup" is-config="true" duration-ms="7764" started-at="2018-10-03T23:16:33Z" finished-at="2018-10-03T23:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Validatetitletest()[pri:0, instance:com.smarts.qa.testcases.HomePageTest@1b604f19]" name="Validatetitletest" duration-ms="26" started-at="2018-10-03T23:16:41Z" finished-at="2018-10-03T23:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validatetitletest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smarts.qa.testcases.HomePageTest@1b604f19]" name="tearDown" is-config="true" duration-ms="956" started-at="2018-10-03T23:16:41Z" finished-at="2018-10-03T23:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.smarts.qa.testcases.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

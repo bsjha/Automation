@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6678" started-at="2019-03-15T00:36:24Z" finished-at="2019-03-15T00:36:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6678" started-at="2019-03-15T00:36:24Z" finished-at="2019-03-15T00:36:31Z">
+      <class name="com.smarts.qa.testcases.LoginTest1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.smarts.qa.testcases.LoginTest1@343f4d3d]" name="beforeClass" is-config="true" duration-ms="20" started-at="2019-03-15T00:36:24Z" finished-at="2019-03-15T00:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smarts.qa.testcases.LoginTest1@343f4d3d]" name="setUp" is-config="true" duration-ms="5051" started-at="2019-03-15T00:36:24Z" finished-at="2019-03-15T00:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTesting()[pri:0, instance:com.smarts.qa.testcases.LoginTest1@343f4d3d]" name="loginTesting" duration-ms="920" started-at="2019-03-15T00:36:29Z" finished-at="2019-03-15T00:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTesting -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smarts.qa.testcases.LoginTest1@343f4d3d]" name="tearDown" is-config="true" duration-ms="661" started-at="2019-03-15T00:36:30Z" finished-at="2019-03-15T00:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.smarts.qa.testcases.LoginTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
