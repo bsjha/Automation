@@ -113,6 +113,7 @@
     <artifactId>commons-lang3</artifactId>
     <version>3.8.1</version>
 </dependency>
+<<<<<<< HEAD
 <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 <dependency>
     <groupId>com.microsoft.sqlserver</groupId>
@@ -120,6 +121,8 @@
     <version>6.1.0.jre8</version>
     <scope>test</scope>
 </dependency>
+=======
+>>>>>>> 4d2d760d5a67493cc4c3dc3df64aa5c083925820
 
   
     <dependency>
