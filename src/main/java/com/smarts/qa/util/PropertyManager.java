@@ -31,4 +31,11 @@ public class PropertyManager {
 		String propertyValue = null;
 		return propertyValue = prop.getProperty(propertyName);
 	}
+
+	public static String getHost() {
+		// TODO Auto-generated method stub
+		String propertyValue = null;
+		
+		return propertyValue=prop.getProperty("Host");
+	}
 }
